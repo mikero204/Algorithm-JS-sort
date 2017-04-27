@@ -39,6 +39,6 @@ Array.prototype.sortMax = function(){
 
 
 
-
+//執行
 arr.sortMin();
 arr.sortMax();

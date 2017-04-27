@@ -1,6 +1,6 @@
 
 var arr = [2,1,333,11,1,2]
-
+//小排到大
 Array.prototype.sortMin = function(){
   for(var i = 0 ; i<this.length;i++){
      var min = i 
@@ -18,6 +18,7 @@ Array.prototype.sortMin = function(){
   console.log(this);
 }
 
+//大排到小
 Array.prototype.sortMax = function(){
   for(var i = 0 ; i<this.length;i++){
      var min = i 

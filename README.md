@@ -1,7 +1,7 @@
 # Algorithm-JS-sort
 JavaScirpt 排序演算法實作
 
-更新 Array.prototype.sortMax  /  Array.prototype.sortMin <span style="color:red;font-size:20px;">2017-04-27 更新</span>
+更新 Array.prototype.sortMax  /  Array.prototype.sortMin <font color="red">**2017-04-27 更新**</font>
 
 
 

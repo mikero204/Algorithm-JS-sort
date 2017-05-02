@@ -1,5 +1,4 @@
-var Benchmark = require('benchmark');
-var suite = new Benchmark.Suite;
+
 var arr = [2,1,333,11,1,2]
         // 1,2
 var insertionSort = function(data){
@@ -14,15 +13,4 @@ var insertionSort = function(data){
     console.log(data)
 };
 
-
-suite.add('test1',function(){
-    insertionSort(arr);
-})
-.add('test2',function(){
-    arr.sort();
-})
-.on('complete', function() {
-  console.log('Fastest is ' + this.filter('fastest').map('name'));
-})
-.run({ 'async': true });
-
+insertionSort(arr);

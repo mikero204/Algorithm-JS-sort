@@ -1,28 +1,17 @@
 //Bubble Sort
-var swap = function(data, i, j){ 
-    var tmp = data[i];
-    data[i] = data[j];
-    data[j] = tmp;
-};
-
-var arr  = [2,3,66,7,5,3]
 
 
-
-var bubbleSort = function(data){
-    var flag = true;
-    for(var i = 0; i < data.length - 1 && flag; i++){
-        flag = false;
-        for(var j = 0; j < data.length - i - 1; j++){
-            if(data[j+1] < data[j]){
-                var tmp = data[j+1]
-                data[j+1] = data[j]
-                data[j] = tmp
-                flag = true;
+var arr = [5,4,3,2,1]
+function BubbleSort(arr){
+    for(var i = 0 ; i<arr.length;i++ ){
+        for(var j = 0;j<arr.length-1-i;j++){
+            if(arr[j]>arr[j+1]){
+                var temp = arr[j]
+                arr[j] = arr[j+1]
+                arr[j+1] = temp
             }
         }
     }
-    console.error(data);
-};  
-
-bubbleSort(arr)
+    console.log(arr);
+}
+BubbleSort(arr);

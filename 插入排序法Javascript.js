@@ -1,5 +1,5 @@
 //Insertion Sort
-var arr = [8,7,4,5,6]
+var arr = [43,6,13,40,20,90]
            
 var insertionSort = function(data){
     var i, j, tmp;

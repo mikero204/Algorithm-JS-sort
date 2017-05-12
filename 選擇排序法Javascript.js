@@ -38,9 +38,9 @@ Array.prototype.sortMax = function(){
 }
 
 //執行
-//arr.sortMin();
-//arr.sortMax();
-var s = [12,3,4,5,6,3,21]
+arr.sortMin();
+arr.sortMax();
+
 function Select(arr){
     for(var i = 0;i<arr.length -1 ;i++){
         var min = i
@@ -57,5 +57,5 @@ function Select(arr){
     }
     return arr;
 }
-var p = Select(s)
-console.log(p);
+var data = Select(arr)
+console.log(data);

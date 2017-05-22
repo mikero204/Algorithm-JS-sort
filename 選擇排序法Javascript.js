@@ -38,35 +38,9 @@ Array.prototype.sortMax = function(){
 }
 
 //執行
-<<<<<<< HEAD
 arr.sortMin();
 arr.sortMax();
 
-=======
 //arr.sortMin();
 //arr.sortMax();
-var s = [12,3,4,5,6,3,21]
->>>>>>> 739fd00... 'update'
-function Select(arr){
-    for(var i = 0;i<arr.length -1 ;i++){
-        var min = i
-        for(var j = i + 1 ; j<arr.length; j++){
-            if(arr[j]<arr[min]){
-                min = j
-            }
-        }
-        if(min != i ){
-            var temp = arr[i]
-            arr[i] = arr[min]
-            arr[min] = temp
-        }
-    }
-    return arr;
-}
-<<<<<<< HEAD
-var data = Select(arr)
-console.log(data);
-=======
-var p = Select(s)
-console.log(p);
->>>>>>> 739fd00... 'update'
+
